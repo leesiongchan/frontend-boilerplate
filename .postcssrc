@@ -1,0 +1,14 @@
+{
+  "modules": true,
+  "plugins": {
+    "postcss-import": {
+      "path": ["assets/css"],
+      "root": "src"
+    },
+    "postcss-modules": {
+      "generateScopedName": "[path]_[local]_[hash:base64:5]",
+      "globalModulePaths": ["src/assets/css/"]
+    },
+    "postcss-cssnext": {}
+  }
+}

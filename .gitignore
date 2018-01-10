@@ -1,0 +1,11 @@
+*.DS_Store
+*.log
+*.sublime-workspace
+.cache/
+.env
+dist/
+docker-compose.override.yaml
+docker-stack.*.yaml
+flow-typed/
+node_modules/
+Thumbs.db
