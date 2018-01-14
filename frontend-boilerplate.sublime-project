@@ -2,6 +2,12 @@
 	"folders":
 	[
 		{
+			"folder_exclude_patterns":
+			[
+				".cache",
+				"dist",
+				"node_modules"
+			],
 			"path": "."
 		}
 	]

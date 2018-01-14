@@ -2,7 +2,7 @@
   "license": "MIT",
   "scripts": {
     "build": "parcel build src/index.html",
-    "start": "parcel src/index.html --no-cache"
+    "start": "parcel src/index.html"
   },
   "dependencies": {
     "react": "^16.2.0",
@@ -23,7 +23,7 @@
     "postcss-cssnext": "^3.0.2",
     "postcss-import": "^11.0.0",
     "postcss-modules": "^1.1.0",
-    "prettier": "^1.9.2",
+    "prettier": "^1.10.2",
     "stylelint": "^8.4.0",
     "stylelint-config-prettier": "^2.0.0"
   }
